@@ -15,6 +15,7 @@ This simple application demonstrates basic CRUD operations in MongoDB via a book
 3. Once IntelliJ is done setting up the project, look for JavaSpringMongodbApplication. It should be under src/main/java. 
 4. Right click that file, click "Run JavaSpring..."
 5. Once up, go to http://localhost:8080/index
+6. You need to have a mongod environment running locally on port 27017. If needed, host and port can be specified in application.properties
 
 ## How to use the web app?
 1. The index page looks like this if there are no books yet
